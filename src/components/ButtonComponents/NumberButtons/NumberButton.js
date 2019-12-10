@@ -6,8 +6,9 @@ const NumberButton = (props) => {
     <button onClick={ () => {
       props.set(props.total + props.button)
       
+      
     }}
-      className='calc-button number-button'>{props.button}</button>
+    className='calc-button number-button'>{props.button}</button>
   );
 };
 
