@@ -14,7 +14,7 @@ import { numbers } from '../../../data'
 
 const Numbers = (props) => {
   // STEP 2 - add the imported data to state
-  const [numberState, setNumberState] = useState(numbers);
+  const [numberState] = useState(numbers);
   return (
     <div className='numbers-container'>
       {numberState.map( (item, index) => (
